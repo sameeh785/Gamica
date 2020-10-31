@@ -1,0 +1,27 @@
+git init  //to intialized git repository in our local folder.Then our folder is called working directory
+
+git add  //to add our files to staging area before commit we have to add our files in staging area
+
+
+git commit -m  ''  // this comman is to record our code
+
+
+git push repository_name branch_name    // to push our code to remote repository
+
+
+
+git pull    // to get changes from remote repository
+
+
+git remote add repository_name url_of_repository  //to connect remote repos with our local repository 
+
+
+git remote -v  // 'to get the list of remote repository connected to our local repository'
+
+
+git reset --hard   //'to undo the last changes we made that we dont need any more but remember those changes should not be commited
+
+
+git branch  // to get the list of branches
+
+git checkout -b branch_name    // to create the branch  and switched to it 
